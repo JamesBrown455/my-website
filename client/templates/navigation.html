@@ -1,14 +1,25 @@
 <template name="map">
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="workexperience.html">Work Experience</a>&nbsp;</li>
-        <li><a href="education.html">Education</a>&nbsp;</li>
-        <li><a href="portfolio.html">Portfolio</a>&nbsp;</li>
-        <li><a href="links.html">Other Links</a>&nbsp;</li>
-      </ul>
-      <button class="btn btn-danger navbar-btn">Button</button>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li >
+            <a href="{{ pathFor 'home' }}">Home</a>
+          </li>
+          <li >
+            <a href="{{ pathFor 'work'}}">Work Experience</a>
+          </li>
+          <li>
+            <a href="{{ pathFor 'edu'}}">Education</a>
+          </li>
+          <li>
+            <a href="{{ pathFor 'port'}}">Portfolio</a>
+          </li>
+          <li>
+            <a href="{{ pathFor 'links'}}">Other Links</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </template>

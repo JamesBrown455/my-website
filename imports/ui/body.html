@@ -1,6 +1,7 @@
 <body>
-  {{> header}}
-  {{> map}}
-
-  {{> foot}}
+  <div class="container">
+    {{> header}}
+    {{> yield}}
+    {{> foot}}
+  </div>
 </body>
