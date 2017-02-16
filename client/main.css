@@ -1,8 +1,21 @@
 /* CSS declarations go here */
 /****** General Styles *********/
+body{
+  background-color: SteelBlue;
+}
+.panel-body{
 
+}
 /****** Header Style *********/
-
+.head {
+    position: relative;
+    background-image: url("images/jbbm2.jpg");
+    background-size: 100px 100px;
+    width: 100%;
+    height: 150%;
+    background-size: cover;
+    overflow: hidden;
+}
 /****** Navigation Style *********/
 
 
