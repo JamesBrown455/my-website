@@ -1,20 +1,55 @@
 /* CSS declarations go here */
 /****** General Styles *********/
 body{
-  background-color: SteelBlue;
+  background: SteelBlue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(darkSlateGrey, silver); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(darkSlateGrey, silver); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(darkSlateGrey, silver); /* For Firefox 3.6 to 15 */
 }
-.panel-body{
 
-}
 /****** Header Style *********/
+.shadow{
+  box-shadow: 5px 4px 5px .5px #262626;
+  border-bottom-right-radius:  5px;
+  border-bottom-left-radius: 5px;
+}
 .head {
+    padding-bottom: 275px;
     position: relative;
     background-image: url("images/jbbm2.jpg");
-    background-size: 100px 100px;
-    width: 100%;
-    height: 150%;
-    background-size: cover;
-    overflow: hidden;
+    width:calc(100% - 1px)
+    height:calc(100% - 1px);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-right-radius: : 5px;
+    border-top-left-radius: 5px;
+
+
+}
+.navbar{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.wide img {
+  width:100%;
+}
+
+.logo {
+  color: snow;
+  font-weight:800;
+  font-size:22pt;
+  padding:25px;
+  text-align:center;
+}
+
+.line {
+  color: snow;
+  padding-top: 20px;
+  white-space: no-wrap;
+  overflow: hidden;
+  text-align: center;
 }
 /****** Navigation Style *********/
 
