@@ -1,10 +1,11 @@
 /* CSS declarations go here */
 /****** General Styles *********/
 body{
-  background: SteelBlue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(darkSlateGrey, silver); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(darkSlateGrey, silver); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(darkSlateGrey, silver); /* For Firefox 3.6 to 15 */
+  font-family: 'Open Sans', sans-serif;
+  background: cornflowerblue ; /* For browsers that do not support gradients */
+}
+.panel{
+  background: #FFFFFC;
 }
 .thumbnailHead{
     width : 80%;
@@ -46,9 +47,11 @@ body{
 
 .logo {
   color: snow;
-  font-weight:800;
-  font-size:22pt;
-  padding:25px;
+  font-style: italic;
+  font-weight: bold;
+  font-size:30pt;
+  font-family: 'Exo', sans-serif;
+  padding:10px;
   text-align:center;
 }
 
