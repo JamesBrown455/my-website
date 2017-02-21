@@ -12,7 +12,6 @@ Router.map(function () {
 
   this.route('about');
   this.route('work');
-  this.route('links');
   this.route('edu');
   this.route('port');
 });
