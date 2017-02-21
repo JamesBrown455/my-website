@@ -6,6 +6,14 @@ body{
   background: -o-linear-gradient(darkSlateGrey, silver); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(darkSlateGrey, silver); /* For Firefox 3.6 to 15 */
 }
+.thumbnailHead{
+    width : 80%;
+    height: 100%;
+    overflow: auto;
+}
+.aboutMe{
+  font-size: 12pt;
+}
 
 /****** Header Style *********/
 .shadow{
