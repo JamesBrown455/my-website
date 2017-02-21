@@ -9,7 +9,7 @@ body{
 
 /****** Header Style *********/
 .shadow{
-  box-shadow: 5px 4px 5px .5px #262626;
+  box-shadow: 4px 4px 4px .7px #262626;
   border-bottom-right-radius:  5px;
   border-bottom-left-radius: 5px;
 }
