@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 /****** General Styles *********/
 body{
+  padding-top: 50px;
   font-family: 'Open Sans', sans-serif;
   background: cornflowerblue ; /* For browsers that do not support gradients */
 }
@@ -28,19 +29,12 @@ body{
     background-image: url("images/jbbm2.jpg");
     width:calc(100% - 1px)
     height:calc(100% - 1px);
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border-top-right-radius: : 5px;
-    border-top-left-radius: 5px;
 
 
 }
-.navbar{
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-}
-
 .wide img {
   width:100%;
 }
@@ -49,10 +43,10 @@ body{
   color: snow;
   font-style: italic;
   font-weight: bold;
-  font-size:30pt;
+  font-size: 30pt;
   font-family: 'Exo', sans-serif;
-  padding:10px;
-  text-align:center;
+  padding: 10px;
+  text-align: center;
 }
 
 .line {
@@ -66,3 +60,14 @@ body{
 
 
 /****** Footer Style *********/
+footer{
+  color: grey;
+  padding-bottom: 25px;
+  background-color: #202020;
+}
+.color-me{
+  color: grey;
+}
+.footline{
+  color: grey;
+}
