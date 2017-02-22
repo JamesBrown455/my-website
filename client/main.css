@@ -57,18 +57,26 @@ body{
   overflow: hidden;
   text-align: center;
 }
+
+.text-center {
+   text-align:center
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 /****** Navigation Style *********/
 
 
 /****** Footer Style *********/
 footer{
   color: grey;
-  padding-bottom: 25px;
+  padding-top: 25px
+  padding-bottom: 10px;
   background-color: #202020;
 }
 .color-me{
-  color: grey;
-}
-.footline{
   color: grey;
 }
