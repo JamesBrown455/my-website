@@ -17,12 +17,13 @@ body{
   font-size: 12pt;
 }
 
-/****** Header Style *********/
 .shadow{
   box-shadow: 4px 4px 4px .7px #262626;
   border-bottom-right-radius:  5px;
   border-bottom-left-radius: 5px;
 }
+
+/****** Header Style *********/
 .head {
     padding-bottom: 275px;
     position: relative;
