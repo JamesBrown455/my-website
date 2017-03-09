@@ -25,7 +25,7 @@ body{
 
 /****** Header Style *********/
 .head {
-    padding-bottom: 500px;
+    padding-bottom: 300px;
     position: relative;
     background-image: url("images/legacy.jpg");
     width:calc(100% - 1px)
@@ -33,8 +33,6 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
-
 }
 .wide img {
   width:100%;
