@@ -14,4 +14,5 @@ Router.map(function () {
   this.route('work');
   this.route('edu');
   this.route('port');
+  this.route('resea');
 });
