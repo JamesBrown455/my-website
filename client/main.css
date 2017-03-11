@@ -23,6 +23,13 @@ body{
   border-bottom-left-radius: 5px;
 }
 
+.skilz{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
+
 /****** Header Style *********/
 .head {
     padding-bottom: 300px;
