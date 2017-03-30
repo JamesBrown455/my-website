@@ -30,6 +30,19 @@ body{
 
 }
 
+.auSmall{
+  height: 60%;
+  width: 60%;
+}
+
+.noRight > [class*='col-']{
+  padding-right: 0 !important;
+}
+
+.noLeft > [class*='col-']{
+  padding-left: 0 !important;
+}
+
 /****** Header Style *********/
 .head {
     padding-bottom: 300px;
