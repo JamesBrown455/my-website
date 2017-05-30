@@ -46,10 +46,9 @@ body{
 /****** Header Style *********/
 .head {
     padding-bottom: 300px;
-    position: relative;
     background-image: url("images/legacy.jpg");
-    width:calc(100% - 1px)
-    height:calc(100% - 1px);
+    width:100%;
+    height:100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -71,7 +70,6 @@ body{
 .line {
   color: snow;
   padding-top: 20px;
-  white-space: no-wrap;
   overflow: hidden;
   text-align: center;
 }
@@ -94,6 +92,10 @@ footer{
   padding-top: 25px
   padding-bottom: 10px;
   background-color: #202020;
+  width: 100%;
+}
+foot{
+  width: 100%;
 }
 .color-me{
   color: grey;
